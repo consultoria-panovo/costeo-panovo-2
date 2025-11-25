@@ -1,5 +1,5 @@
 {
-  "name": "costeo-panovo",
+  "name": "costeo-panovo-2",
   "version": "1.0.0",
   "description": "API para consultar BOMs en Azure SQL",
   "main": "index.js",
