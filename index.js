@@ -11,7 +11,6 @@ const config = {
   options: {
     encrypt: true,
     trustServerCertificate: true
-
   }
 };
 
@@ -32,3 +31,6 @@ app.get("/tblReleasedBOMs", async (req, res) => {
   }
 });
 
+app.listen(3000, () => {
+  console.log("API Costeo-Panovo MM60 corriendo en puerto 3000");
+});
